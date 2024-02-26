@@ -1,0 +1,32 @@
+---
+title: "Zach's Practice Package Vignette"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Zach's Practice Package Vignette}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(Rprac)
+```
+
+This package contains the function standardize(). This function is useful for a variety of data processing applications where centering and scaling your data is important. For example, you may want to use this function before inputting a vector to a KNN algorithm. 
+To use the standardize function, simply input a vector x like so:
+```{r}
+x <- get("rand_data")
+x_center_scale <- standardize(x)
+print(x_center_scale)
+print(mean(x_center_scale))
+print(sd(x_center_scale))
+```
+
+
+Now x_center_scale will be x but with mean of 0 and standard deviation of 1, as desired.
