@@ -2,3 +2,8 @@ url: https://zballdiesel.github.io/Rprac/
 template:
   bootstrap: 5
 
+development:
+  mode: auto
+
+authors:
+  Zach Turner
