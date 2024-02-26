@@ -3,5 +3,8 @@ pkgdown: 2.0.7
 pkgdown_sha: ~
 articles:
   my-vignette: my-vignette.html
-last_built: 2024-02-26T02:57Z
+last_built: 2024-02-26T05:50Z
+urls:
+  reference: https://zballdiesel.github.io/Rprac/reference
+  article: https://zballdiesel.github.io/Rprac/articles
 
