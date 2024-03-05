@@ -1,9 +1,9 @@
-pandoc: 2.19.2
+pandoc: 3.1.11
 pkgdown: 2.0.7
 pkgdown_sha: ~
 articles:
   my-vignette: my-vignette.html
-last_built: 2024-02-27T02:52Z
+last_built: 2024-03-05T20:47Z
 urls:
   reference: https://zballdiesel.github.io/Rprac/reference
   article: https://zballdiesel.github.io/Rprac/articles
